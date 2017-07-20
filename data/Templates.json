@@ -1,0 +1,136 @@
+[
+	{
+		"id": 1,
+		"name": "Checkin Reminder",
+		"message": [
+			{
+				"file": false,
+				"variable": "timeGreeting"
+			},
+			" ",
+			{
+				"file": "guest",
+				"variable": "firstName"
+			},
+			", we just wanted to remind you that your checkin to ",
+			{
+				"file": "company",
+				"variable": "company"
+			},
+			" will be on ",
+			{
+				"file": "guest",
+				"variable": "reservation",
+				"nestedVar": "startTimestamp"
+			},
+			". We're looking forward to your visit!"
+		]
+	},
+	{
+		"id": 2,
+		"name": "Welcome",
+		"message": [
+			{
+				"file": false,
+				"variable": "timeGreeting"
+			},
+			" ",
+			{
+				"file": "guest",
+				"variable": "firstName"
+			},
+			", and welcome to ",
+			{
+				"file": "company",
+				"variable": "company"
+			},
+			"! Room ",
+			{
+				"file": "guest",
+				"variable": "reservation",
+				"nestedVar": "roomNumber"
+			},
+			" is now ready for you. Enjoy your stay, and let us know if you need anything."
+		]
+	},
+	{
+		"id": 3,
+		"name": "Alternate Welcome",
+		"message": [
+			{
+				"file": false,
+				"variable": "timeGreeting"
+			},
+			" ",
+			{
+				"file": "guest",
+				"variable": "firstName"
+			},
+			", and welcome to ",
+			{
+				"file": "company",
+				"variable": "company"
+			},
+			", is the beautiful city of ",
+			{
+				"file": "company",
+				"variable": "city"
+			},
+			"! Room ",
+			{
+				"file": "guest",
+				"variable": "reservation",
+				"nestedVar": "roomNumber"
+			},
+			" is now ready for you. We hope you have a rad time."
+		]
+	},
+	{
+		"id": 4,
+		"name": "Checking Up",
+		"message": [
+			{
+				"file": false,
+				"variable": "timeGreeting"
+			},
+			" ",
+			{
+				"file": "guest",
+				"variable": "firstName"
+			},
+			", we hope your stay at ",
+			{
+				"file": "company",
+				"variable": "company"
+			},
+			" has been going great! Let us know if we can do anything to improve your stay!"
+		]
+	},
+	{
+		"id": 5,
+		"name": "Checkout Reminder",
+		"message": [
+			{
+				"file": false,
+				"variable": "timeGreeting"
+			},
+			" ",
+			{
+				"file": "guest",
+				"variable": "firstName"
+			},
+			", we just wanted to remind you that your checkout from ",
+			{
+				"file": "company",
+				"variable": "company"
+			},
+			" will be on ",
+			{
+				"file": "guest",
+				"variable": "reservation",
+				"nestedVar": "endTimestamp"
+			},
+			". We hope you've enjoyed your stay!"
+		]
+	}
+]

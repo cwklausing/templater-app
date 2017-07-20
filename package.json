@@ -1,0 +1,36 @@
+{
+  "name": "templater-delux",
+  "version": "1.0.0",
+  "description": "A message templater",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cwklausing/templater-app.git"
+  },
+  "author": "cwklausing",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cwklausing/templater-app/issues"
+  },
+  "homepage": "https://github.com/cwklausing/templater-app#readme",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "webpack": "^3.3.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1"
+  }
+}
